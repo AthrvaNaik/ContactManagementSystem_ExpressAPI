@@ -1,7 +1,3 @@
-Certainly! Let's include commands for installing Mongoose, Bcrypt, Jsonwebtoken, and other dependencies in the README:
-
----
-
 # Contact Management System API
 
 Welcome to the Contact Management System API! This project is a CRUD API for managing contacts. Each user can only access their own contact information, which includes name, email, and phone number. The API is built using Express.js for the server and MongoDB for the database. JWT is used for authentication.
@@ -18,13 +14,13 @@ Welcome to the Contact Management System API! This project is a CRUD API for man
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/AthrvaNaik/ContactManagementSystem_ExpressAPI
    ```
 
 2. **Navigate to the project directory:**
 
    ```bash
-   cd contact-management-system-api
+   cd ContactManagementSystem_ExpressAPI
    ```
 
 3. **Install dependencies:**
@@ -71,14 +67,8 @@ Use Postman or any other API testing tool to test the implemented endpoints. The
 
 Ensure that you include the JWT token received after logging in as a Bearer token in the Authorization header for authenticated routes.
 
-## Contributors
+## Contributor
 
-- [Your Name](https://github.com/your-github-username)
+- [Your Name](https://github.com/AthrvaNaik)
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize this README file further to include additional information or instructions specific to your project. Happy coding!
