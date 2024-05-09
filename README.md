@@ -1,43 +1,63 @@
+Certainly! Let's include commands for installing Mongoose, Bcrypt, Jsonwebtoken, and other dependencies in the README:
 
-###Contact Management System API
+---
+
+# Contact Management System API
 
 Welcome to the Contact Management System API! This project is a CRUD API for managing contacts. Each user can only access their own contact information, which includes name, email, and phone number. The API is built using Express.js for the server and MongoDB for the database. JWT is used for authentication.
-Getting Started
 
-Prerequisites
-Node.js: Ensure Node.js is installed on your machine. You can download it from [here](https://nodejs.org/).
-MongoDB: MongoDB should be installed and running locally or accessible remotely. You can download it from [here](https://www.mongodb.com/try/download/community).
+## Getting Started
 
-Installation
+### Prerequisites
 
-1. Clone the repository:
+- **Node.js**: Ensure Node.js is installed on your machine. You can download it from [here](https://nodejs.org/).
+- **MongoDB**: MongoDB should be installed and running locally or accessible remotely. You can download it from [here](https://www.mongodb.com/try/download/community).
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
    git clone <repository-url>
+   ```
 
-2. Navigate to the project directory:
-   cd ContactManagementSystem_ExpressAPI
+2. **Navigate to the project directory:**
 
-3. Install dependencies:
+   ```bash
+   cd contact-management-system-api
+   ```
+
+3. **Install dependencies:**
+
+   ```bash
    npm install express mongoose bcrypt jsonwebtoken dotenv
-   
+   ```
+
    This command will install Express.js, Mongoose (MongoDB object modeling tool), Bcrypt (for password hashing), Jsonwebtoken (for JWT authentication), and dotenv (for loading environment variables).
 
-5. Set up environment variables:
+4. **Set up environment variables:**
 
    Create a `.env` file in the root directory and add the following variables:
+
+   ```plaintext
    PORT=3000
    MONGODB_URI=<your-mongodb-uri>
    JWT_ACCESS_TOKEN_SECRET=<your-jwt-access-token-secret>
+   ```
 
    Replace `<your-mongodb-uri>` with the connection URI for your MongoDB database. Choose a secure `<your-jwt-access-token-secret>` for JWT token generation and verification.
 
-Starting the Server
+### Starting the Server
 
 To start the server, run:
+
+```bash
 npm start
+```
 
 The server will start running on the specified port (default is 3000).
 
-Testing Endpoints
+### Testing Endpoints
 
 Use Postman or any other API testing tool to test the implemented endpoints. The following endpoints are available:
 
@@ -51,6 +71,14 @@ Use Postman or any other API testing tool to test the implemented endpoints. The
 
 Ensure that you include the JWT token received after logging in as a Bearer token in the Authorization header for authenticated routes.
 
-Contributor
-[Your Name](https://github.com/AthrvaNaik)
+## Contributors
 
+- [Your Name](https://github.com/your-github-username)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to customize this README file further to include additional information or instructions specific to your project. Happy coding!
