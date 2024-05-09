@@ -69,6 +69,6 @@ Ensure that you include the JWT token received after logging in as a Bearer toke
 
 ## Contributor
 
-- [Your Name](https://github.com/AthrvaNaik)
+- [Athrva D Naik](https://github.com/AthrvaNaik)
 
 
